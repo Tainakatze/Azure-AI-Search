@@ -22,7 +22,9 @@ As Virtual Machines (VMs) no Azure permitem a execução de aplicativos, servido
 
 # 📌 Criando sua VM no Azure 
 1️⃣ No Azure Portal, vá para a seção Máquinas Virtuais.  
+
 2️⃣ Clique em "Criar" → "Nova Máquina Virtual".  
+
 3️⃣ Defina as seguintes configurações:  
 Grupo de Recursos e Nome da VM 
 Localização (ex.: Brazil South)  
@@ -30,7 +32,8 @@ Imagem do Sistema Operacional
 (Windows/Linux)  
 Tipo de Autenticação (Senha ou Chave SSH)  
 Capacidade de Hardware (RAM, CPU, armazenamento)  
-Configuração de Rede e Disco:
+Configuração de Rede e Disco.
+
 4️⃣ Após revisar as definições, clique em "Criar" para concluir a implantação.  
 
 # 🔹 Métodos de Acesso à VM
@@ -40,7 +43,9 @@ Configuração de Rede e Disco:
 O Azure SQL Database fornece um ambiente confiável para armazenamento e gestão de dados, permitindo escalabilidade conforme a demanda do negócio.  
 
 # 📌 Passo a Passo para Implantação:
+
 1️⃣ No Azure Portal, vá para Banco de Dados SQL.  
+
 2️⃣ Escolha a opção "Criar Instância Gerenciada" e defina os seguintes parâmetros:  
    - Nome do Servidor
    - Grupo de Recursos
@@ -48,6 +53,7 @@ O Azure SQL Database fornece um ambiente confiável para armazenamento e gestão
    - Método de Autenticação (SQL ou Azure AD)  
    - Configuração de Desempenho
    - Política de Acesso à Rede  (restrito ou público)  
+
 3️⃣ Finalize clicando em "Criar" para implantar o banco de dados.  
 
 # 🔹 Métodos de Conexão ao Banco 
@@ -74,8 +80,11 @@ O Terraform e o Azure Bicep permitem a provisionamento automatizado de recursos,
 
 # 📌 Implementação com Terraform 
 1️⃣ Instale o Terraform e configure o provedor do Azure (`azurerm`).  
+
 2️⃣ Defina as configurações da VM e do banco de dados em arquivos `.tf`.  
+
 3️⃣ Execute `terraform plan` para validar as definições antes da implantação.  
+
 4️⃣ Utilize `terraform apply` para provisionar os recursos automaticamente.  
 
 # 🔒 Estratégias de Segurança no Azure 
@@ -104,8 +113,12 @@ Azure-Infra
 # 📌 Desafio Prático: Testando sua Infraestrutura no Azure:
 
 1️⃣ Crie uma VM e um Banco de Dados SQL seguindo as instruções acima.  
+
 2️⃣ Aplique regras de segurança, incluindo MFA e firewall.  
-3️⃣ Implemente um backup automatizado e simule um failover. 4️⃣ Monitore o desempenho utilizando Azure Monitor e Log Analytics.  
+
+3️⃣ Implemente um backup automatizado e simule um failover. 
+
+4️⃣ Monitore o desempenho utilizando Azure Monitor e Log Analytics.  
 
 # 📌 Conclusão:
 
