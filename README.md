@@ -1,6 +1,7 @@
 # Azure AI Search: Inteligência Artificial na Organização e Consulta de Dados
 
 # Introdução:
+
 O processamento e a recuperação eficiente de informações são pilares essenciais para a transformação digital. No contexto atual, onde dados são gerados em volumes massivos e estruturas diversificadas, torna-se fundamental o uso de tecnologias especializadas para facilitar a organização e a acessibilidade desses dados.  
 
 # Guia Estratégico: Infraestrutura, Segurança e Busca Inteligente no Microsoft Azure  
@@ -13,11 +14,14 @@ Este guia explora como configurar e otimizar sua infraestrutura na nuvem, aborda
 Antes de iniciar qualquer configuração, é necessário criar uma conta ativa no Microsoft Azure. Siga os passos abaixo:  
 
 1️⃣ Acesse o site oficial do Azure e clique em "Criar conta gratuita".  
+
 2️⃣ Preencha as informações exigidas e defina um método de pagamento (sem cobrança no período de testes).  
+
 3️⃣ Confirme sua identidade via e-mail ou SMS.  
+
 4️⃣ Após a verificação, acesse o Azure Portal e explore os serviços disponíveis.  
 
-## 🖥 Implantação e Gerenciamento de Máquinas Virtuais  
+# 🖥 Implantação e Gerenciamento de Máquinas Virtuais  
 As Virtual Machines (VMs) no Azure permitem a execução de aplicativos, servidores e ambientes de desenvolvimento em um sistema escalável e configurável.  
 
 # 📌 Criando sua VM no Azure 
